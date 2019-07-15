@@ -1,0 +1,30 @@
+{
+  "name": "gget",
+  "version": "1.0.0",
+  "description": "CLI tools to download template defines in GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gget": "./index.js"
+  },
+  "keywords": [
+    "Git",
+    "Get",
+    "gget"
+  ],
+  "author": "Mahasak Pijittum",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "figlet": "^1.2.3",
+    "fs-extra": "^8.1.0",
+    "is-url": "^1.2.4",
+    "ora": "^3.4.0",
+    "simple-git": "^1.121.0",
+    "touch": "^3.1.0",
+    "url-exists": "^1.0.3"
+  }
+}
